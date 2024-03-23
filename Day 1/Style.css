@@ -1,0 +1,95 @@
+img
+{
+    background: radial-gradient(50% 50% at 50% 50%, #FBBF24 0%, #F59E0B 100%);
+
+}
+
+*
+{
+    margin: 0;
+    padding: 0%;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10%;
+    height: 90%;
+    border-radius: 15px;
+    border: 5px  solid #0d0808;
+    
+
+}
+ .image
+{
+    flex-basis: 50%;
+}
+.image img
+{
+    width: 90%;
+    display: flex;  
+    justify-content:center;
+    align-items: center;
+     
+}
+.form 
+{
+    flex-basis: 50%;
+    position: relative;
+    flex-direction: column;
+    text-align: left;
+    width: 70%;  
+}
+.form h1
+{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+  
+}
+.form p
+{
+    margin-top: 2%;
+    font-size:  15px;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+}
+.form .box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    margin: 5% 20% ;
+    border: 1px solid  rgb(201, 190, 190) ;
+    outline: none;
+    width: 55%;
+    border-radius: 10px;
+}
+.form button
+{
+    width: 60%;
+    margin: 5% 20% ;
+    padding: 3%;
+    border: 1px solid  rgb(206, 199, 0) ;
+    outline: none;
+    border-radius: 10px;
+    background: radial-gradient(50% 50% at 50% 50%, #FBBF24 0%, #F59E0B 100%); 
+
+}
+.form a
+{
+    color: blue;
+    text-decoration: none;
+}
+.form .forgot-password
+{
+    float: right;
+    margin-right: 20%;
+    font-size: 15px;
+  
+}
